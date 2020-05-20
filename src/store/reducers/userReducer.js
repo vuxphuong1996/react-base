@@ -6,11 +6,11 @@ const initState = {};
 
 export default function (state = initState, action) {
   switch (action.type) {
-    case SET_CURRENT_USER:
-      return {
-        ...state
-      };
-    default:
-      return state;
+  case SET_CURRENT_USER:
+    return {
+      ...state
+    };
+  default:
+    return state;
   }
 }

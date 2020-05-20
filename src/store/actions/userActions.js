@@ -1,4 +1,4 @@
-import { SET_CURRENT_USER } from '../constant'
+import { SET_CURRENT_USER } from '../constant';
 
 export const setCurrentUser = () => {
   return {
